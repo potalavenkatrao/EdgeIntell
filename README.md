@@ -5,7 +5,7 @@ EdgeIntell
 from io import StringIO
 
 import pandas as pd
-import\ requests
+import requests
 url='https://raw.githubusercontent.com/potalavenkatrao/EdgeIntell/Shares/Final_File.csv'
 df=pd.read_csv(url)
 #print(df)
