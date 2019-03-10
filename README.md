@@ -12,3 +12,6 @@ df=pd.read_csv(url)
 X = df.iloc[4:495, 3:13]   # Using 1:2 as indices will give us np array of dim (10, 1)
 y = df.iloc[0:,12]
 df.head()
+
+
+PCA and One hot encoding
